@@ -1,0 +1,65 @@
+body {
+    font-family: Arial,  sans-serif;
+    background: #f8f8f8;
+}
+
+#ramen-menu {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#ramen-menu img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+#ramen-menu img:hover {
+    border: 2px solid orange;
+}
+
+#ramen-detail img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+#ramen-item {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#ramen-comment {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.ramen-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+#ramen-img {
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-radius: 10px;
+}
+

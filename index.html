@@ -1,1 +1,44 @@
-<h1>Hello, Git!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="device-widht=device-widht, initial-scale=1">
+    <title>Ramen Rating App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ramen Rating App</h1>
+
+    <!-- selected Ramen section -->
+     
+
+     <!-- selected Ramen details -->
+      <div id="ramen-detail">
+        <img id="ramen-img" src="shoyu.jpg" alt="shoyu ramen">
+        <img id="ramen-img" src="kojiro.jpg" alt="kojiro ramen">
+        <img id="ramen-img" src="naruto.jpg" alt="naruto ramen">
+        <img id="ramen-img" src="nirvana.jpg" alt="nirvana ramen">
+        <img id="ramen-img" src="gyukotsu.jpg" alt="gyukotsu ramen">
+      </div>
+      <div>
+        <img id="ramen-img" src="naruto.jpg" alt="naruto ramen">
+      </div>
+        <h2 id="ramen-name">Select a ramen</h2>
+        <h3 id="ramen-restaurant"></h3>
+        <p><strong>Rating:</strong> <span id="ramen-rating"></span>/5</p>
+        <p><strong>Comment:</strong> <span id="ramen-Comment"></span></p>
+      </div>
+
+      <!-- form to add a new Ramen -->
+       <form id="Ramen-form">
+        <input type="text" id="new-name" placeholder="Ramen name" required>
+        <input type="text" id="new-restaurant" placeholder="Restaurant" required>
+        <input type="number" id="new-rating" placeholder="Rating (1-5)" min="1" max="5" required>
+        <input type="text" id="new-comment" placeholder="Comment" required>
+        <input type="url" id="new-image" placeholder="Image URL" required>
+        <button type="submit">Add Ramen</button>
+       </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
